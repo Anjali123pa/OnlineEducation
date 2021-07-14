@@ -1,0 +1,37 @@
+.test-container {
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+    .li {
+      text-align: center;
+      font-size: large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      color:black;
+  }
+  .btn {
+    margin-left: 20px;
+    width: 200px;
+    background-color: #683aa4 !important;
+    border: none !important;
+    outline: none !important;
+    height: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    background-image: linear-gradient(
+      to right,
+      #683aa4,
+      #844fca,
+      #a66bf3
+    ) !important;
+    cursor: pointer;
+  }
+  
+  .Content{
+    width: 800px;
+  margin-top: 20px;
+   margin-left: 300px;
+  }
