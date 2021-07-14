@@ -1,0 +1,179 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.head {
+  margin-top: 0.5%;
+  color: white;
+  font-size: 30px;
+  margin-left: 15px;
+  font-family: monospace;
+}
+
+.foot{
+  color: white;
+}
+
+.th {
+  margin-top: 0.5%;
+  color: white;
+  font-size: 30px;
+  margin-left: 15px;
+  font-family: monospace;
+}
+
+.text-muted {
+  margin-top: 1%;
+  font-size: 15px;
+  color: white;
+}
+
+
+
+/*change*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.organics,
+.shiftings,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url('./images/bg5.jpeg');
+  background-position: fixed;  
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+   
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 40px;
+}
+
+.products {
+  background-image: url('./images/bg5.jpeg');
+  background-position: fixed;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 40px;
+}
+
+.sign-up {
+  background-image: url('./images/bg5.jpeg');
+  border-image-width: 100%;
+  background-position: fixed;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 40px;
+}
+
+.organics {
+  background-image: url('./images/bg5.jpeg');
+  background-position: fixed;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 40px;
+}
+
+.shiftings {
+  background-image: url('./images/bg5.jpeg');
+  background-position: fixed;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 40px;
+}
+
+.studentdash{
+  background-image: url('./images/mainbganimation.gif');
+  background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+   
+  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 40px;
+}
+
+  /*
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+  }*/
